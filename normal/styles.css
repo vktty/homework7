@@ -1,0 +1,148 @@
+.down {
+    border: 3px solid rgb(207, 139, 13);
+    width: 80px;
+    background-color: rgb(218, 178, 102);
+    text-align: center;
+    color: rgb(118, 102, 21);
+    margin: 10px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.normal {
+    border: 1px solid green;
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.normal2 {
+    border: 1px solid green;
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.notnormal {
+    border: 1px solid green;
+    width: 200px;
+    margin: 5px;
+    display: inline;
+}
+
+.snormal {
+    border: 1px solid green;
+    width: 200px;
+    margin: 5px;
+}
+
+.snotnormal {
+    border: 1px solid green;
+    width: 200px;
+    margin: 5px;
+    display: block;
+}
+
+.fnornal {
+    border: 1px solid green;
+    width: 200px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.left {
+    border: 1px solid green;
+    font-size: 24px;
+    width: 150px;
+    float: left;
+    margin: 10px;
+}
+
+.right {
+    border: 1px solid green;
+    font-size: 24px;
+    width: 150px;
+    float: right;
+    margin: 10px;
+}
+
+.first {
+    border: 1px solid green;
+    margin: 5px;
+    float: right;
+}
+
+.second {
+    border: 1px solid green;
+    margin: 5px;
+    clear: both;
+}
+
+.third {
+    border: 1px solid green;
+    margin: 5px;
+}
+
+.over {
+    border: 1px solid green;
+    width: 500px;
+    height: 200px;
+    overflow: scroll;
+    margin: 10px auto;
+}
+
+.static {
+    border: 1px solid green;
+    width: 100px;
+    font-size: 24px;
+    position: static;
+    margin: 5px;
+    float: right;
+    background-color: orange;
+}
+
+.relative {
+    border: 1px solid green;
+    width: 120px;
+    font-size: 24px;
+    position: relative;
+    top: 50px;
+    left: 400px;
+    background-color: orange;
+}
+
+.absolute {
+    border: 1px solid green;
+    width: 130px;
+    font-size: 24px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    background-color: orange;
+}
+
+.fixed {
+    border: 1px solid green;
+    width: 100px;
+    font-size: 24px;
+    position: fixed;
+    top: 500px;
+    background-color: orange;
+}
+
+.sticky {
+    border: 1px solid green;
+    width: 110px;
+    font-size: 24px;
+    position: sticky;
+    top: 20px;
+    left: 400px;
+    background-color: orange;
+}
